@@ -1,0 +1,55 @@
+body{
+	background-color:white;
+	width:100%;
+	height:100%;
+	background-size: cover;
+	background-attachment: fixed;
+	color:white;
+}
+li {
+    list-style-type: none;
+}
+.del{
+    display: inline-block;
+	float: right;
+	color: red;
+	cursor: pointer
+}
+.ed{
+	display: inline-block;
+}
+nav{
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+.card h3, .card h2, .card-header{
+	text-align: left;
+}
+.card{
+	width: 600px;
+	margin: 0 auto;
+}
+.del{
+	margin-top: 10px;
+}
+#hider {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+#hider:checked + .content {
+    display: block;
+}
+#clickme {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.content {
+    margin-top: 10px;
+    display: none;
+}
+.error{
+	margin-left: 7px;
+    font-weight: bold;
+}
